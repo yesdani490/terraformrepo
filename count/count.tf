@@ -1,5 +1,5 @@
 resource "aws_instance" "countofinstances" {
-    count = 1
+    count = 5
     ami = var.myami
     instance_type = var.instance_names[count.index] == "MongoDB" ? "t3.micro" : "t2.micro"
 
