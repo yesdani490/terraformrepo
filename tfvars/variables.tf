@@ -1,6 +1,6 @@
 variable "myami" {
  type = string
-  default = "ami-0f3c7d07486cad139"
+  default = "ami-03265a0778a880afb"
 }
 
 variable "instances" {
