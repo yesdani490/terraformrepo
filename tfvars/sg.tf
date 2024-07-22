@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow_all-Http-https-ssh" {
-  name        = "allow_all"
+  name        = "allow_all-Http-https-ssh"
   description = "Allow all inbound traffic"
  
 
