@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "roboshop-remote-state-yesdani"
+    bucket = "roboshopbucket"
     key    = "tfvars"
     region = "us-east-1"
     dynamodb_table = "roboshop-dynamotable"
@@ -19,3 +19,4 @@ provider "aws" {
 
   region = "us-east-1"
 }
+
